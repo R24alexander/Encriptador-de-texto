@@ -1,0 +1,126 @@
+/* ============================================================================================= */
+/* ==================================== Responsive - Tablet ==================================== */
+/* ============================================================================================= */
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+
+    .logo {
+        width: auto;
+        height: 60px;
+    }
+
+    .contendor-seccion {
+        width: 95%;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .seccion1 {
+        width: 100%;
+        position: relative;
+    }
+
+    .contendor-cajaTexto {
+        position: relative;
+        height: 500px;
+    }
+    .text-area {
+        position: relative;
+    }
+    .contenedor-alerta {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -70px;
+        left: 0;
+    }
+    .contenedor-botones {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        bottom: none;
+    }
+
+    .btn-encriptar {
+        width: 50%;
+    }
+
+    .btn-desencriptar {
+        width: 50%;
+    }
+
+    .seccion2 {
+        width: 100%;
+        position: relative;
+        right: 0;
+        border: none;
+    }
+
+    .contedor-munieco {
+        display: none;
+    }
+    .contenedor-parrafo {
+        padding: 0;
+    }
+
+    .contendor-copia {
+        margin-top: 20px;
+    }
+
+    .btn-copiar {
+        width: 90%;
+    }
+
+}
+
+/* ============================================================================================= */
+/* =================================== Responsive - Celular ==================================== */
+/* ============================================================================================= */
+@media (max-width: 376px) {
+    .logo {
+        width: auto;
+        height: 48px
+    }
+
+    main {
+        width: 100%;
+    }
+    
+    .contendor-seccion {
+        width: 98%;
+    }
+
+    .contendor-cajaTexto {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text-area {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        min-width: 333px;
+        max-width: 333px;
+        width: 343px;
+        margin: 0 auto;
+        font-size: 24px;
+    }
+
+    .contenedor-botones {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-encriptar,.btn-desencriptar {
+        width: 100%;
+    }
+    
+}
