@@ -79,6 +79,10 @@ main {
     padding: 1rem;
 }
 
+.informacion {
+    font-size: 1rem;
+}
+
 
 .contenedor-botones {
     position: absolute;
@@ -144,7 +148,7 @@ main {
 }
 
 .contenedor-parrafo {
-    padding: 20px 10px;
+    /* padding: 10px 10px; */
 }
 
 .contenedor-parrafo h3 {
